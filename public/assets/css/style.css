@@ -1,0 +1,56 @@
+/* ------- */
+/* Buttons */
+/* ------- */
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+body{
+    text-align: center;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+}
+
+/* ------- */
+/* Buttons */
+/* ------- */
+
+.burgerReadyToDevour {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+}
+
+.burgerDevoured {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+}
+
+.addButton {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+}

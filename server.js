@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static('public'));
+
 // ----------------------------------------
 // Set-up express app to handle data parsing
 // ----------------------------------------
@@ -23,9 +26,9 @@ app.set('view engine', 'handlebars');
 // -------------
 // Import routes
 // -------------
-// const routes = require('./');
+const routes = require('./controllers/burgers_controller');
 
-// app.use(routes);
+app.use('/', routes);
 
 // ----------------------------
 // Listener for client requests
